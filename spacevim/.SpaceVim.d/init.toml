@@ -58,6 +58,7 @@
 [[layers]]
   name = "lang#python"
   enable_typeinfo = true
+  format_on_save = 1
 
 [[layers]]
   name = "lang#vue"
