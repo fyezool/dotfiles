@@ -24,6 +24,10 @@
     enable_tabline_filetype_icon = true
     enable_statusline_mode = false
 
+[[custom_plugin]]
+  name = "name = 'lilydjwg/colorizer'
+  merged = 0"
+    
 # Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
@@ -80,3 +84,11 @@
 
 [[layers]]
   name = "lang#sh"
+
+[[layers]]
+  name = "shell"
+  default_shell = "terminal"
+  default_position = "bottom"
+  default_height = "30"
+
+
