@@ -15,6 +15,9 @@ set PATH /home/fyezool/anaconda3/bin $PATH
 ## Dart path
 set PATH /opt/flutter/bin/cache/dart-sdk/bin $PATH
 
+## Rust Cargo path
+set PATH /home/fyezool/.cargo/bin $PATH
+
 ##snap PATH
 #set PATH /snap/bin $PATH
 
