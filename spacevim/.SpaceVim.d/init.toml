@@ -22,12 +22,12 @@
     statusline_inactive_separator = "arrow"
     buffer_index_type = 4
     enable_tabline_filetype_icon = true
-    enable_statusline_mode = false
+    enable_statusline_mode = true
 
 [[custom_plugin]]
-  name = "name = 'lilydjwg/colorizer'
-  merged = 0"
-    
+  name = 'lilydjwg/colorizer'
+
+
 # Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
@@ -93,5 +93,4 @@
   default_shell = "terminal"
   default_position = "bottom"
   default_height = "30"
-
 
