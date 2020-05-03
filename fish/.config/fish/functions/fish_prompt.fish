@@ -1,1 +1,1 @@
-/home/fyezool/.local/share/omf/themes/lambda/fish_prompt.fish
+/home/0x0a/.local/share/omf/themes/lambda/fish_prompt.fish

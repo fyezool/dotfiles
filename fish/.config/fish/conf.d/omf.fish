@@ -6,7 +6,7 @@ set -q XDG_DATA_HOME
 # Load Oh My Fish configuration.
 source $OMF_PATH/init.fish
 
-eval $HOME/ufetch-arch
+eval $HOME/ufetch-fedora
 
 ## flutter and anaconda PATH
 set PATH /opt/flutter/bin $PATH
