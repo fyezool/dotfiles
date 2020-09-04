@@ -27,7 +27,6 @@
 [[custom_plugin]]
   name = 'lilydjwg/colorizer'
 
-
 # Enable autocomplete layer
 [[layers]]
   name = 'autocomplete'
@@ -64,7 +63,6 @@
 
 [[layers]]
   name = "lang#python"
-  enable_typeinfo = true
   format_on_save = 1
 
 [[layers]]
@@ -89,8 +87,5 @@
   name = "lang#sh"
 
 [[layers]]
-  name = "shell"
-  default_shell = "terminal"
-  default_position = "bottom"
-  default_height = "30"
-
+  name = "checkers"
+  enable = false

@@ -27,10 +27,10 @@ set -s escape-time 50
 
 ## Clipboard integration
 # ctrl+c to send to clipboard
-#bind C-c run "tmux save-buffer - | xclip -i -sel clipboard"
+bind C-c run "tmux save-buffer - | xclip -i -sel clipboard"
 
 # ctrl+v to paste from clipboard
-#bind C-v run "tmux set-buffer \"$(xclip -o -sel clipboard)\"; tmux paste-buffer"
+bind C-v run "tmux set-buffer \"$(xclip -o -sel clipboard)\"; tmux paste-buffer"
 
 # Selection with mouse should copy to clipboard right away, in addition to the default action.
 unbind -n -Tcopy-mode-vi MouseDragEnd1Pane

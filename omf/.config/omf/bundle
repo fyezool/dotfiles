@@ -1,1 +1,4 @@
+package bass
+package https://github.com/sentriz/fish-pipenv
 theme default
+theme lambda
